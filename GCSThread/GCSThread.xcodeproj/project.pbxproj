@@ -18,6 +18,7 @@
 		50B4FAD928B115D700F2D6C2 /* GCSThreadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B4FAD828B115D700F2D6C2 /* GCSThreadUITests.m */; };
 		50B4FADB28B115D700F2D6C2 /* GCSThreadUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B4FADA28B115D700F2D6C2 /* GCSThreadUITestsLaunchTests.m */; };
 		50B4FAEC28B1162F00F2D6C2 /* GCSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B4FAEB28B1162F00F2D6C2 /* GCSThread.m */; };
+		50B4FAEF28B1197F00F2D6C2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B4FAEE28B1197F00F2D6C2 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		50B4FADA28B115D700F2D6C2 /* GCSThreadUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCSThreadUITestsLaunchTests.m; sourceTree = "<group>"; };
 		50B4FAEA28B1162F00F2D6C2 /* GCSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCSThread.h; sourceTree = "<group>"; };
 		50B4FAEB28B1162F00F2D6C2 /* GCSThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCSThread.m; sourceTree = "<group>"; };
+		50B4FAED28B1197F00F2D6C2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		50B4FAEE28B1197F00F2D6C2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				50B4FAB628B115D600F2D6C2 /* SceneDelegate.m */,
 				50B4FAB828B115D600F2D6C2 /* ViewController.h */,
 				50B4FAB928B115D600F2D6C2 /* ViewController.m */,
+				50B4FAED28B1197F00F2D6C2 /* SecondViewController.h */,
+				50B4FAEE28B1197F00F2D6C2 /* SecondViewController.m */,
 				50B4FAEA28B1162F00F2D6C2 /* GCSThread.h */,
 				50B4FAEB28B1162F00F2D6C2 /* GCSThread.m */,
 				50B4FABB28B115D600F2D6C2 /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B4FAEF28B1197F00F2D6C2 /* SecondViewController.m in Sources */,
 				50B4FABA28B115D600F2D6C2 /* ViewController.m in Sources */,
 				50B4FAB428B115D600F2D6C2 /* AppDelegate.m in Sources */,
 				50B4FAC528B115D700F2D6C2 /* main.m in Sources */,
