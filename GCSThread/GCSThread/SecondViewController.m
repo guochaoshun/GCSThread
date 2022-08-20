@@ -33,20 +33,22 @@
 
 - (void)task1 {
     NSLog(@"%s 开始",__func__);
-    sleep(4);
+    sleep(3);
     NSLog(@"%s 结束",__func__);
 
 }
 
 - (void)task2 {
     NSLog(@"%s 开始",__func__);
-    sleep(10);
+    sleep(5);
     NSLog(@"%s 结束",__func__);
 }
 
 
 - (void)dealloc {
-//    [self.thread stop];
+    NSLog(@"%s",__func__);
+    // 这句必须要有,否则会有内存泄漏
+    [self.thread stop];
 }
 
 
